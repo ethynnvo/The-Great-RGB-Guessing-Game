@@ -73,3 +73,16 @@ button:hover {
     display: inline-block;
     width: 20%;
 }
+
+.rules {
+    color: steelblue;
+    margin 0px auto;
+    text-align: center;
+    padding: 20px 0;
+}
+
+@media only screen (max-width: 600px) {
+    #message {
+        width: inherit;
+    }
+}
