@@ -70,6 +70,7 @@ function reset(){
        }
    }
    h1.style.backgroundColor = "steelblue";
+   messageDisplay.textContent = "";
 }
 
 resetButton.addEventListener("click", function(){

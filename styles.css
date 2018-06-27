@@ -81,8 +81,8 @@ button:hover {
     padding: 20px 0;
 }
 
-@media only screen (max-width: 600px) {
+@media only screen (max-width: 750px) {
     #message {
-        width: inherit;
+        display: none;
     }
 }
